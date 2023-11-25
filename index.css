@@ -1,0 +1,16 @@
+table {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin-block: 1rem;
+  margin-inline: 1rem;
+}
+
+tr,
+td {
+  border: 1px solid black;
+}
+
+tr:nth-child(odd) {
+  background: #ccc;
+}
